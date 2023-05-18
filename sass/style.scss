@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 50px;
+}
+.add_container{
+    display: flex;
+    
+    height: 150px;
+    padding: 15px;
+    gap: 20px;
+    .name_inp{
+        p{
+            font-size: 18px;
+        }
+        input{
+            width: 300px;
+            height: 60px;
+            border: solid 1px grey;
+            border-radius: 10px;
+           outline: none;
+           padding: 10px;
+           font-size: 18px;
+        }
+    }
+    .age_inp{
+        p{
+            font-size: 18px;
+        }
+        input{
+            width: 300px;
+            height: 60px;
+            border: solid 1px grey;
+            border-radius: 10px;
+           outline: none;
+           padding: 10px;
+           font-size: 18px;
+        }
+    }
+    button{
+        margin-top: 22px;
+        width: 120px;
+        height: 60px;
+        border: solid 0px;
+        border-radius: 10px;
+        background-color: #004DFF;
+        color: white;
+        font-size: 18px;
+
+    }
+}
+.age_cont{
+    display: flex;
+    gap: 30px;
+}
+.first_age{
+    padding: 30px;
+    width: 500px;
+    height: 500px;
+    border-right: solid 3px #CBCBCB;
+    border-radius: 2px;
+ h1{
+    font-size: 24px;
+    font-weight: 500;
+
+ }
+}
+.middle_age{
+    padding: 30px;
+    width: 500px;
+    height: 500px;
+    border-right: solid 3px #CBCBCB;
+    border-radius: 2px;
+ h1{
+    font-size: 24px;
+    font-weight: 500;
+    
+ }
+}
+.last_age{
+    padding: 30px;
+    width: 500px;
+    height: 500px;
+ 
+ h1{
+    font-size: 24px;
+    font-weight: 500;
+    
+ }
+}
+
+.elem{
+    padding: 15px;
+    margin-top: 15px;
+     width: 400px;
+     height: 180px;
+     border: solid 1px #CBCBCB;
+     border-radius: 10px;
+     .info{
+        margin-top: 30px;
+        padding: 14px;
+        display: flex;
+        justify-content: space-between;
+        width: 350px;
+        height: 50px;
+        border: solid 0px #CBCBCB;
+        border-radius: 10px;
+        background-color: #EAEAEB;
+        
+        p{
+            color: #9BA5B1;
+        }
+        p:nth-child(2){
+            color: black;
+        }
+     }
+}
